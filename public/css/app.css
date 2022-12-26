@@ -22259,3 +22259,68 @@ textarea.form-control-lg {
 * {
   font-family: "redhat";
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.petitenav {
+  display: flex;
+  height: 7.5vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.elementleft {
+  height: 7.5vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  margin-left: 2.5%;
+}
+
+.elementleft span {
+  opacity: 80%;
+  font-size: 75%;
+}
+
+.elementleft i {
+  color: #ab754a;
+  margin-left: 5%;
+  padding-right: 1%;
+}
+
+.elementright {
+  height: 7.5vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 1%;
+  margin-left: 44%;
+}
+
+.elementright span {
+  opacity: 80%;
+  font-size: 75%;
+  margin-right: 5%;
+}
+
+.elementright i {
+  color: #ab754a;
+  margin-left: 2.5%;
+  padding-right: 1%;
+}
+
+.imodifier {
+  display: flex;
+  background-color: white;
+  height: 55%;
+  width: 9.5%;
+  margin-left: 1%;
+  align-items: center;
+  justify-content: center;
+}
