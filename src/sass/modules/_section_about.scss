@@ -15,7 +15,17 @@ body {
     height: 50vh;
     width: 100vw;
     background-color: #f5f5f5;
-    align-items: center;
-    justify-content: center;
 
 }
+
+.aboutimg {
+    display: flex;
+    width: 100%;
+
+}
+
+.aboutimg img {
+    object-fit: cover;
+    width: 50%;
+    max-width: 50%;
+  }
