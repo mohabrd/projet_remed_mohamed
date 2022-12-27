@@ -22624,6 +22624,7 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .petitenav {
@@ -22717,4 +22718,8 @@ body {
 
 .bgblanc {
   background-color: white;
+}
+
+.carousel-item img {
+  filter: brightness(50%);
 }
