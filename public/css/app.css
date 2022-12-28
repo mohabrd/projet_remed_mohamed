@@ -23005,3 +23005,19 @@ body {
 .whyi2 span {
   width: 10%;
 }
+
+.whyi3 {
+  display: flex;
+  position: relative;
+  margin-top: 1.55%;
+  margin-left: 30%;
+}
+
+.whyi3 i {
+  margin-top: 5%;
+  margin-left: -9.99%;
+}
+
+.whyi3 span {
+  width: 10%;
+}
