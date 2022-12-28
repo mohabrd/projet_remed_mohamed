@@ -22848,7 +22848,7 @@ body {
 }
 
 .abouti1 i {
-  margin-top: 2.5%;
+  margin-top: 1.5%;
   margin-left: 5%;
 }
 
@@ -22865,4 +22865,27 @@ body {
   font-size: 90%;
   margin-top: 6.6%;
   margin-left: 14%;
+}
+
+.abouti2 {
+  display: flex;
+  position: relative;
+  margin-left: 35%;
+  margin-top: -8%;
+  align-items: center;
+}
+
+.abouti2 p {
+  margin-top: 0.1%;
+  margin-left: 2.5%;
+  color: #ab7442;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.abouti2 span {
+  position: absolute;
+  font-size: 90%;
+  margin-top: 7.5%;
+  margin-left: 12.5%;
 }
