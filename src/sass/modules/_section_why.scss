@@ -15,40 +15,31 @@ body {
     height: 50vh;
     width: 100vw;
     background-color: #f5f5f5;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .whyimg {
     display: flex;
     width: 50%;
 
-
 }
 
 .whyimg img {
-    display: flex;
-    justify-content: flex-end;
     object-fit: cover;
 }
 
-.whytxt {
-    display: flex;
-    justify-content: flex-start;
-
-
-}
 
 .whytxt h1 {
-    display: flex;
     font-weight: bolder;
     margin-top: 10%;
-    margin-left: 25%;
-    width: 45%;
+    margin-left: -5%;
+    width: 65%;
 
 }
+
 .whytxt span {
     display: flex;
-    margin-top: 18.88%;
-    margin-left: -45%;
-
+    margin-top: 2.5%;
+    margin-left: -5%;
+    width: 100%;
 }
