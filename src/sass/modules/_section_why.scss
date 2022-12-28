@@ -21,20 +21,17 @@ body {
 .whyimg {
     display: flex;
     width: 50%;
-
 }
 
 .whyimg img {
     object-fit: cover;
 }
 
-
 .whytxt h1 {
     font-weight: bolder;
     margin-top: 10%;
     margin-left: -5%;
     width: 65%;
-
 }
 
 .whytxt span {
@@ -42,4 +39,33 @@ body {
     margin-top: 2.5%;
     margin-left: -5%;
     width: 100%;
+}
+
+.whyi1 {
+    display: flex;
+    position: relative;
+}
+
+.whyi1 i {
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+.whyi1 span {
+    width: 10%;
+}
+
+.whys1 {
+    position: absolute;
+    font-size: 75%;
+    left: 10%;
+    bottom: 35%;
+    opacity: 80%;
+}
+.whys2 {
+    position: absolute;
+    font-weight: bolder;
+    font-size: 90%;
+    left: 10%;
+    bottom: 1%;
 }
