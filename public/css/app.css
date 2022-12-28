@@ -22903,3 +22903,15 @@ body {
   color: white;
   background-color: #ab7442;
 }
+
+* {
+  font-family: "redhat";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
