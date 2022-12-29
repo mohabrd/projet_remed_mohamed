@@ -1,0 +1,63 @@
+* {
+    font-family: "redhat";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.free {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+
+.freeimg {
+    display: flex;
+    width: 50%;
+}
+
+.freeimg img {
+    object-fit: cover;
+}
+
+.freetxt {
+    height: 10%;
+    width: 45%;
+}
+
+.freetxt h1 {
+    display: flex;
+    font-weight: bolder;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.freetxt span {
+    display: flex;
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+
+
+
+
+// .freebtn {
+//     margin-top: 4.44%;
+//     margin-left: 5%;
+
+// }
+
+// .freebtn button {
+//     border: none;
+//     padding: 2%;
+//     padding-left: 4%;
+//     padding-right: 4%;
+//     color: white;
+//     background-color: #ab7442;
+// }
