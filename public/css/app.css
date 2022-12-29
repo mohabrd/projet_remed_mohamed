@@ -22916,6 +22916,18 @@ body {
   overflow-x: hidden;
 }
 
+.our-services .card {
+  overflow: hidden;
+}
+.our-services .card img {
+  width: 100%;
+  height: auto;
+}
+.our-services .card img:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+}
+
 * {
   font-family: "redhat";
 }
