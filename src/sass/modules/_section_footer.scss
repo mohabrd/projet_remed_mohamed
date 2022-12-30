@@ -1,0 +1,108 @@
+* {
+    font-family: "redhat";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #313131;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .noir {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .txtfoot {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    margin: 50px;
+  }
+  footer .txtfoot i {
+    margin-right: 25px;
+  }
+  footer .txtfoot a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .txtfoot a:hover {
+    font-size: 18px;
+    transition: 1s;
+    color: #eaa737;
+  }
+  footer .iconfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  footer .iconfoot span {
+    border: 2px solid white;
+  }
+  footer .iconfoot span i {
+    margin: 10px;
+  }
+  footer .iconfoot span:hover {
+    background-color: white;
+    color: black;
+  }
+  footer .txtimg {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .txtimg h2 {
+    color: white;
+  }
+  footer .txtimg img {
+    width: 80px;
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  
+  .footertxt {
+    border-top: 2px solid #3d3d3d;
+    background-color: #303030;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footertxt .your {
+    color: white;
+  }
+  .footertxt .your span:nth-child(2) {
+    color: white;
+  }
+  .footertxt .your span:nth-child(2):hover {
+    color: white;
+  }
+  .footertxt .designed {
+    color: white;
+  }
+  .footertxt .designed span:nth-child(2) {
+    color: white;
+  }
+  .footertxt .designed span:nth-child(2):hover {
+    color: white;
+  }
+  .footertxt .designed span:nth-child(5) {
+    color: white
+  }
+  .footertxt .designed span:nth-child(5):hover {
+    color: white;
+  }
