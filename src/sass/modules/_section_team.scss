@@ -22,20 +22,17 @@ body {
     }
 }
 
-    /* Style the card */
     .card {
         width: 18rem;
         margin: 2vh;
         position: relative;
       }
       
-      /* Style the card image */
       .card img {
         width: 100%;
         height: auto;
       }
       
-      /* Style the card body */
       .card-body {
         display: flex;
         flex-direction: column;
@@ -44,13 +41,11 @@ body {
         opacity: 99%;
       }
       
-      /* Style the card text */
       .card-text {
         font-weight: bolder;
         margin-bottom: 3.3%;
       }
       
-      /* Style the icon container */
       .icon-container {
         display: none;
         position: absolute;
@@ -60,7 +55,6 @@ body {
         padding-bottom: 20%
       }
       
-      /* Style the Font Awesome icons */
       .fa-facebook-f,
       .fa-twitter,
       .fa-instagram {
@@ -69,7 +63,6 @@ body {
         color: #ab7442;
       }
       
-      /* Show the icon container when the mouse hovers over the image */
       .card img:hover + .card-body .icon-container {
         display: block;
       }
