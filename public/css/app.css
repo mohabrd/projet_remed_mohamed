@@ -23203,6 +23203,82 @@ body {
   overflow-x: hidden;
 }
 
+.team-members .card {
+  overflow: hidden;
+}
+.team-members .card img {
+  width: 100%;
+  height: auto;
+}
+.team-members .card img:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+}
+
+/* Style the card */
+.card {
+  width: 18rem;
+  margin: 2vh;
+  position: relative;
+}
+
+/* Style the card image */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the card body */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  opacity: 99%;
+}
+
+/* Style the card text */
+.card-text {
+  font-weight: bolder;
+  margin-bottom: 3.3%;
+}
+
+/* Style the icon container */
+.icon-container {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+  padding-bottom: 20%;
+}
+
+/* Style the Font Awesome icons */
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ab7442;
+}
+
+/* Show the icon container when the mouse hovers over the image */
+.card img:hover + .card-body .icon-container {
+  display: block;
+}
+
+* {
+  font-family: "redhat";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 footer {
   margin-top: 100px;
   background-color: #313131;
